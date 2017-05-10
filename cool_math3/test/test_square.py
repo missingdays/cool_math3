@@ -1,6 +1,11 @@
 
+import sys
+
+sys.path.insert(0, '../')
+sys.path.insert(0, '../../')
+
 import unittest
-from square import square
+from cool_math3 import square
 
 class TestSquare(unittest.TestCase):
 
